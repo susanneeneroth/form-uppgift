@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form assignment</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/index.css">
+</head>
+<body>
+
+<section class="main-container">
+    <div class="form-left">
+    <form class="form-container">
+        <div class="form-section">
+            <label class="label-text">CARD NUMBER</label><br>
+            <input type="text" placeholder="0000 0000 0000 0000" class="card-form__card" required type="number">
+        </div>
+        <div class="form-section-flex">
+            <div class="form-space"><label class="label-text">MM/YY</label><br>
+                <input type="text" placeholder="00/00" class="card-form__date-ccv" required type="number">
+            </div>
+            <div class="form-space">
+            <label for="label-ccv">CCV Code</label><br>
+            <input type="text" placeholder="000" class="card-form__date-ccv" required type="number">
+            </div>
+        </div>
+        <div class="form-section">
+            <label class="label-text">CARDHOLDER FULL NAME</label><br>
+            <input type="text" placeholder="Name Surname" class="card-form__card" required>
+        </div>
+        <button class="form-section__button">PAY NOW</button>
+        </div>
+    </form>
+   <div class="form-right">
+       <img src="images/flower.png" alt="flower pot" class="flower-pot">
+   </div>
+</section>  
+</body>
+</html>
